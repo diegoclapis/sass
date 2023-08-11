@@ -1,0 +1,15 @@
+.main_site {
+    width: 100%;
+  
+    .main_site_content {
+      width: $width-content;
+      padding: 10px;
+      margin: 0 auto;
+    }
+  
+    h2{
+      text-align: center;
+      font-size: 2.2em;
+    }
+  }
+  

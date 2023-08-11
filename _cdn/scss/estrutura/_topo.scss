@@ -1,0 +1,19 @@
+.main_header {
+  width: 100%;
+  background-color: $color-background-primary;
+
+  .main_header_navidation {
+    width: $width-content;
+    margin: 0 auto;
+    padding: 20px;
+
+    a {
+      color: #fff;
+      padding: 12px;
+
+      &:hover{
+        color: #F69;
+      }
+    }
+  }
+}
