@@ -2,10 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+// ESTRUTURA DO INICIAL 
 @import "resete/resete";
 
+// ESTRUTURA DO COMPANENTES
+// BOTÕES
+@import "componentes/botoes";
+
+// TITULOS
+@import "componentes/titulos";
+
+// ESTRUTURA DO TOPO
 @import "estrutura/topo";
 
+// ESTRUTURA DO CORPO
 @import "estrutura/site";
 
+// ESTRUTURA DO RODAPE
 @import "estrutura/rodape";

@@ -1,3 +1,40 @@
 $width-content: 1080px;
 $color-background-primary: #069;
-$fonte-primary: 'Roboto';
+$ft-primary: "Roboto";
+
+$button-hover-type: "darken";
+$button-hover-amount: "20%";
+
+$cor-verde: #36BA9B;
+$cor-azul: #39AED9;
+$cor-amarelo: #F5B946;
+$cor-vermelho: #D94352;
+$cor-laranja: #D94;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        "verde": $cor-verde,
+        "azul": $cor-azul,
+        "amarelo": $cor-amarelo,
+        "vermelho": $cor-vermelho,
+        "laranja": $cor-laranja
+    ), $theme-colors
+);
+
+$btn-extra-pequeno: 2px 4px;
+$btn-pequeno: 5px 10px; 
+$btn-medio: 6px 12px;
+$btn-grande: 9px 18px;
+$btn-extra-grande: 12px 24px;
+
+$btn-size: () !default;
+$btn-size: map_merge( 
+  (
+    "extra-pequeno": $btn-extra-pequeno,
+    "pequeno": $btn-pequeno,
+    "medio": $btn-medio,
+    "grande": $btn-grande,
+    "extra-grande": $btn-extra-grande,
+  ), $btn-size
+);

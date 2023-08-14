@@ -4,9 +4,10 @@ O projeto consiste em um script Node.js que permite ao usuário passar um arquiv
 Passos do Projeto:
 
 1. Criar arquivo SASS.
-2. Utilizar terminal para que crie arquivos CSS baseados nos arquivos SCSS.
-3. Utilizar import dentro do SCSS de forma que unifique diversos arquivos.
-4. Utilizar variaveis.
+2. Utilizando terminal para que crie arquivos CSS baseados nos arquivos SCSS.
+3. Utilizando import dentro do SCSS de forma que unifique diversos arquivos.
+4. Utilizando variaveis.
+5. Utilizando mixin.
 
 ## Instalando SASS
 
@@ -28,3 +29,9 @@ A partir desses arquivos são criados os arquivos CSS para serem utilizados em n
 
 ## Separando arquivos e usando @import
 Para uma melhor visualização e para manter o código mais organizado podemos utilizar o comoando @import dentro do arquivo SCSS para que ele importe dados de outro arquivo, os arquivos que serão importandos dentro do nosso @importe devem contes no inicio do nome o "_", dessa forma caso esteje utilizando o comando que fica monitorando e gerando os arquivos CSS automaticamente não crie esses arquivos uma vez que serão importandos dentro de outro.
+
+## Utilizando variaveis
+Como em qualquer liguagem de programação podemos criar variaveis para utilizar em varios pontos de nosso código e ao gerar o arquivo CSS o mesmo troca as variaveis pelo valor dentro dela, para otimizar a criação de algumas classes podemos gerar variaveis com map-merge e depois atravez de @each fazer um looping para escreve-las. 
+
+## Utilizando mixin
+Podemos criar mixin para criar parametro de estilização que possam ser incluidas em qualquer classe criada dessa forma não precismo ficar escrevendo uma parte igual de parametro iguais em diferentes clasees.
